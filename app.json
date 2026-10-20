@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "ADAM",
+    "slug": "adam-viking-english",
+    "version": "2.1.0",
+    "scheme": [
+      "adamviking",
+      "com.nayza06.adamvikingenglish"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.nayza06.adamvikingenglish",
+      "versionCode": 4,
+      "predictiveBackGestureEnabled": true,
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0F20",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "plugins": [
+      "./plugins/withCleanPermissions.js",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "37de3dee-0e0a-4c7a-9627-7140564ff10f"
+      }
+    }
+  }
+}
